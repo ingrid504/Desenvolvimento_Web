@@ -1,0 +1,24 @@
+ul.slick-dots li button{
+    display: inline-block;
+    font-size: 0px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+ul.slick-dots li.slick-active{
+    background-color: #00bac6;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.slick-dots {
+    margin: auto;
+    width: 60%;
+    left: 40%;
+    top: 80%;
+    position: absolute;
+
+}
